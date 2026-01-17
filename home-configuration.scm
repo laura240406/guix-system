@@ -359,7 +359,7 @@
                    "krdc"
                    "xdot"
                    "wireshark"
-                   "xdg-desktop-portal"
+                   "xdg-desktop-portal-gtk"
                    "xdg-desktop-portal-hyprland"
                    "libappindicator"
                    "pipewire"
@@ -473,7 +473,9 @@
                    "openssl"
                    "wireguard-tools"
                    "modem-manager"
-                   "python-wxpython")))
+                   "python-wxpython"
+                   "xdg-utils"
+                   "qttools")))
   (services
    (append %base-home-services
            (list (service home-zsh-service-type
