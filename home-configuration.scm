@@ -475,7 +475,8 @@
                    "modem-manager"
                    "python-wxpython"
                    "xdg-utils"
-                   "qttools")))
+                   "qttools"
+                   "kicad")))
   (services
    (append %base-home-services
            (list (service home-zsh-service-type
