@@ -281,7 +281,7 @@
            "maven"
            "fceux"
            "boinc-client"
-           "python-pymol"
+;           "python-pymol"
            "transmission"
            "x11vnc"
            "cantata"
@@ -315,7 +315,7 @@
            "lrzip"
            "john-the-ripper-jumbo"
            "gifsicle"
-           "texlive"
+           "texlive-scheme-full"
            "debootstrap"
            "catimg"
            "gnucobol"
@@ -486,7 +486,9 @@
            "python-wxpython"
            "xdg-utils"
            "qttools"
-           "kicad")))
+           "kicad"
+           "swi-prolog"
+           "cloudflared")))
   (services
     (append
       %base-home-services
