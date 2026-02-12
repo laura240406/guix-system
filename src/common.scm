@@ -81,6 +81,7 @@
   (gnu packages gettext)
   (gnu packages texinfo)
   (gnu packages networking)
+  (gnu packages xdisorg)
   (laura packages utils)
   (laura services utils)
   (gnu system setuid)

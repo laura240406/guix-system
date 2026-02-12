@@ -11,6 +11,7 @@
   (guix build-system copy)
   (guix build-system gnu)
   ((guix licenses) #:prefix license:)
+  (gnu packages xdisorg)
   (gnu home services shells)
   (gnu home services guix)
   (gnu home services shepherd)
@@ -84,6 +85,7 @@
 
 (home-environment
   (packages
+    (append (list hyprlock-stripped)
     (map (lambda (package)
            (if (pair? package)
              (cons (specification->package (car package))
@@ -348,7 +350,6 @@
            "electrum"
            "die-engine"
            "ioquake3"
-           "lean4"
            "monero-gui"
            "dragon-drop"
            "brightnessctl"
@@ -411,7 +412,6 @@
            "gnome-keyring"
            "hyprland"
            "hypridle"
-           "hyprlock"
            "swww"
            "clipmon"
            "feh"
@@ -472,7 +472,6 @@
            "flatpak-builder"
            "avogadro2"
            "openbabel"
-           "imhex"
            "vulkan-loader"
            "vulkan-headers"
            "protobuf-c"
@@ -488,7 +487,7 @@
            "qttools"
            "kicad"
            "swi-prolog"
-           "cloudflared")))
+           "cloudflared"))))
   (services
     (append
       %base-home-services
