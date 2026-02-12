@@ -23,10 +23,10 @@
         (channel
           (name 'lauras-channel)
           (url "https://github.com/jakiki6/lauras-channel"))
-        (channel
-          (name 'guix-hpc)
-          (url "https://gitlab.inria.fr/guix-hpc/guix-hpc.git")
-          (branch "master"))
+;        (channel
+;          (name 'guix-hpc)
+;          (url "https://gitlab.inria.fr/guix-hpc/guix-hpc.git")
+;          (branch "master"))
         (channel
           (name 'guix-science)
           (url "https://codeberg.org/guix-science/guix-science.git")
