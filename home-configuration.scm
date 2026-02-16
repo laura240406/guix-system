@@ -487,7 +487,8 @@
            "qttools"
            "kicad"
            "swi-prolog"
-           "cloudflared"))))
+           "cloudflared"
+           "waypipe"))))
   (services
     (append
       %base-home-services
