@@ -377,7 +377,6 @@
            "wireplumber"
            "ydotool"
            "tpt"
-           "vala"
            "keepassxc"
            "vlc"
            "pamixer"
@@ -488,7 +487,10 @@
            "kicad"
            "swi-prolog"
            "cloudflared"
-           "waypipe"))))
+           "waypipe"
+           "xwayland-satellite"
+           "pinentry"
+           "kleopatra"))))
   (services
     (append
       %base-home-services
