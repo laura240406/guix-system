@@ -27,14 +27,14 @@
 ;          (name 'guix-hpc)
 ;          (url "https://gitlab.inria.fr/guix-hpc/guix-hpc.git")
 ;          (branch "master"))
-        (channel
-          (name 'guix-science)
-          (url "https://codeberg.org/guix-science/guix-science.git")
-          (introduction
-           (make-channel-introduction
-            "b1fe5aaff3ab48e798a4cce02f0212bc91f423dc"
-            (openpgp-fingerprint
-             "CA4F 8CF4 37D7 478F DA05  5FD4 4213 7701 1A37 8446"))))
+;        (channel
+;          (name 'guix-science)
+;          (url "https://codeberg.org/guix-science/guix-science.git")
+;          (introduction
+;           (make-channel-introduction
+;            "b1fe5aaff3ab48e798a4cce02f0212bc91f423dc"
+;            (openpgp-fingerprint
+;             "CA4F 8CF4 37D7 478F DA05  5FD4 4213 7701 1A37 8446"))))
         (channel
           (name 'shepherd)
           (url "https://git.savannah.gnu.org/git/shepherd.git")

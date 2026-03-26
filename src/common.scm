@@ -82,6 +82,9 @@
   (gnu packages texinfo)
   (gnu packages networking)
   (gnu packages xdisorg)
+  (gnu packages freedesktop)
+  (gnu packages firmware)
+  (gnu services authentication)
   (laura packages utils)
   (laura services utils)
   (gnu system setuid)
@@ -325,6 +328,7 @@
                   (extra-special-file
                     "/lib64/ld-linux-x86-64.so.2"
                     (file-append glibc-ld "/lib/ld-linux-x86-64.so.2"))
+                  (service fprintd-service-type)
                   (udev-rules-service 'rtl-sdr rtl-sdr)
                   (udev-rules-service 'android android-udev-rules)
                   (udev-rules-service
