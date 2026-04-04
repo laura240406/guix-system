@@ -109,7 +109,7 @@ if efi:
         os.system("mv /boot/EFI/BOOT/BOOTX64.EFI /boot/EFI/BOOT/BOOTX64.EFI.OLD")
 
     os.system("cat $(guix build xen)/boot/xen.gz > /boot/gnu/xen.gz")
-    os.system("grub-mkstandalone -O x86_64-efi --directory=$(guix build grub-efi)/lib/grub/x86_64-efi --modules $(find /boot/grub | grep \\\\.mod$ | cut -d/ -f5 | cut -d. -f1) --output /boot/EFI/BOOT/BOOTX64.EFI \"boot/grub/grub.cfg=/boot/grub/grub.cfg\" \"gnu=/boot/gnu\"")
+    os.system("grub-mkstandalone --disable-shim-lock -O x86_64-efi --directory=$(guix build grub-efi)/lib/grub/x86_64-efi --modules $(find /boot/grub | grep \\\\.mod$ | cut -d/ -f5 | cut -d. -f1) --output /boot/EFI/BOOT/BOOTX64.EFI \"boot/grub/grub.cfg=/boot/grub/grub.cfg\" \"gnu=/boot/gnu\"")
 
     os.system("sbctl sign /boot/EFI/BOOT/BOOTX64.EFI")
     os.system("sync")
