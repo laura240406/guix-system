@@ -37,7 +37,7 @@
 ;             "CA4F 8CF4 37D7 478F DA05  5FD4 4213 7701 1A37 8446"))))
         (channel
           (name 'shepherd)
-          (url "https://git.savannah.gnu.org/git/shepherd.git")
+          (url "https://codeberg.org/shepherd/shepherd.git")
           (branch "main")
           (introduction
            (make-channel-introduction

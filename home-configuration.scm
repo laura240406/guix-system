@@ -190,7 +190,7 @@
            "nmap"
            "iverilog"
            "hexedit"
-           "p7zip-nonfree"
+           "7zip-nonfree"
            "upx"
            ("openssl" "doc")
            "socat"
