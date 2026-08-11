@@ -403,7 +403,6 @@
            "sdl2-image"
            "sdl2"
            "gtk+"
-           "qtbase@5"
            "qtmultimedia@5"
            "qtsvg@5"
            "qscintilla"
@@ -490,7 +489,8 @@
            "waypipe"
            "xwayland-satellite"
            "pinentry"
-           "kleopatra"))))
+           "kleopatra"
+           "bluez"))))
   (services
     (append
       %base-home-services
