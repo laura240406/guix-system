@@ -490,7 +490,9 @@
            "xwayland-satellite"
            "pinentry"
            "kleopatra"
-           "bluez"))))
+           "bluez"
+           "aircrack-ng"
+           "filelight"))))
   (services
     (append
       %base-home-services
