@@ -405,12 +405,11 @@
            "gtk+"
            "qtmultimedia@5"
            "qtsvg@5"
-           "qscintilla"
            ("gtk" "bin")
            "gnome-keyring"
            "hyprland"
            "hypridle"
-           "swww"
+           "awww"
            "clipmon"
            "feh"
            ("python-next" "tk")
@@ -523,6 +522,7 @@
                   (".config/guix/channels.scm"
                    ,(local-file "files/channels.scm"))
                   (".vimrc" ,(local-file "files/vimrc"))
+                  (".gnupg/gpg-agent.conf" ,(local-file "files/gpg-agent.conf"))
                   (".local/bin/scmfmt"
                    ,(local-file "files/scmfmt" #:recursive? #t))
                   (".local/bin/gentotp" ,totp)
