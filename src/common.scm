@@ -131,6 +131,7 @@
             "iomem=relaxed"
             "crashkernel=512M"
             "elevator=bfq"))
+    (kernel-loadable-modules (list v4l2loopback-linux-module))
     (locale "en_US.utf8")
     (timezone "Europe/Berlin")
     (keyboard-layout (keyboard-layout "de" "us"))
