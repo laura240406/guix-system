@@ -330,6 +330,7 @@
                     "/lib64/ld-linux-x86-64.so.2"
                     (file-append glibc-ld "/lib/ld-linux-x86-64.so.2"))
                   (service fprintd-service-type)
+                  (service gnome-desktop-service-type)
                   (udev-rules-service 'rtl-sdr rtl-sdr)
                   (udev-rules-service 'android android-udev-rules)
                   (udev-rules-service
