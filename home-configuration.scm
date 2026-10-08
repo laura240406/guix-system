@@ -521,6 +521,8 @@
                         (base32 (cadr (assoc-ref %hashes (gethostname)))))))
                   (".config/guix/channels.scm"
                    ,(local-file "files/channels.scm"))
+                  (".config/alacritty/alacritty.toml"
+                   ,(local-file "files/alacritty.toml"))
                   (".vimrc" ,(local-file "files/vimrc"))
                   (".gnupg/gpg-agent.conf" ,(local-file "files/gpg-agent.conf"))
                   (".local/bin/scmfmt"
