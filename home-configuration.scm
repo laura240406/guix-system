@@ -27,8 +27,8 @@
 
 (define %hashes
   (list (list "kernelpanicroom"
-              "4e57e0c8ed20c35cea36eed67a2bf37a65792aea"
-              "1y8ag8f2i4rr0qzrmd69wzh9jasgc4yr5i6pwhdxwa4qjf81hrmi")
+              "9382646fd550f2762bd00a618039444b255bf92b"
+              "1aabjbwfamr0ssca6fi6zd4zxznbh3bbkjpyw5jfdk45f0l1q0fs")
         (list "dalaptop"
               "bccb34a818ae99d4d40738aa85586658d7709051"
               "1kbvn7avycw1j2yi1bfm2d8jid92rppvyr3rkd2a3hv881h08v57")))
