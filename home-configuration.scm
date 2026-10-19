@@ -491,7 +491,8 @@
            "kleopatra"
            "bluez"
            "aircrack-ng"
-           "filelight"))))
+           "filelight"
+           "tmux"))))
   (services
     (append
       %base-home-services
