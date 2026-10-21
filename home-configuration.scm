@@ -492,7 +492,8 @@
            "bluez"
            "aircrack-ng"
            "filelight"
-           "tmux"))))
+           "tmux"
+           "openconnect"))))
   (services
     (append
       %base-home-services

@@ -197,7 +197,7 @@
         (list vim-as-vi
               shutdown-as-poweroff
               python3-as-python
-              fwupd-patched)
+              fwupd-nonfree)
         (operating-system-packages OS)))
     (name-service-switch %mdns-host-lookup-nss)))
 
@@ -435,11 +435,11 @@
               (simple-service
                 'fwupd-dbus
                 dbus-root-service-type
-                (list fwupd-patched))
+                (list fwupd-nonfree))
               (simple-service
                 'fwupd-polkit
                 polkit-service-type
-                (list fwupd-patched))
+                (list fwupd-nonfree))
               (service
                 syncthing-service-type
                 (syncthing-configuration (user "laura")))
