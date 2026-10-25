@@ -20,8 +20,7 @@
   (gnu home services)
   (laura home services wine)
   (laura home services audio)
-  (laura home services ai)
-  (laura home services radicle))
+  (laura home services ai))
 
 (include "src/secrets.scm")
 
@@ -504,7 +503,6 @@
             (service home-wineserver-service-type)
             (service home-pipewire-service-type)
             (service home-dbus-service-type)
-            (service home-radicle-service-type)
             (service
               home-shepherd-service-type
               (home-shepherd-configuration
