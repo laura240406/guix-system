@@ -18,6 +18,9 @@ gc:
 	guix home delete-generations
 	guix gc
 
+build:
+	./scripts/build.sh
+
 src/secrets.scm: src/secrets.scm.age
 	age -d $< > $@
 

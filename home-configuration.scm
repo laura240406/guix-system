@@ -364,7 +364,7 @@
            "vtk"
            "vscodium"
            "waybar"
-           "krita"
+;           "krita"
            "kdenlive"
            "krdc"
            "xdot"
