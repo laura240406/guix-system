@@ -92,7 +92,7 @@
              (specification->package package)))
          '("sbctl"
            "clang-toolchain"
-           ("openjdk" "jdk")
+           ("openjdk@25" "jdk")
            "go"
            "dos2unix"
            ("elfutils" "bin")
@@ -122,7 +122,7 @@
            "grub-efi"
            "efibootmgr"
            "uefitool"
-           "prismlauncher"
+           "prismlauncher-dolly"
            "perf"
            "ruby"
            "rsync"
